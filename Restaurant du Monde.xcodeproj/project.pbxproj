@@ -13,6 +13,12 @@
 		5F122C9A2162C9A300E0438C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F122C982162C9A300E0438C /* LaunchScreen.storyboard */; };
 		5F122CA72162CB4400E0438C /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F122CA62162CB4400E0438C /* MenuController.swift */; };
 		5F122CA92162CB8400E0438C /* ALaCarteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F122CA82162CB8400E0438C /* ALaCarteController.swift */; };
+		5F122CAB2162CC7300E0438C /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F122CAA2162CC7300E0438C /* TabBar.swift */; };
+		5F122CAE2162CCB900E0438C /* Constantes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F122CAD2162CCB900E0438C /* Constantes.swift */; };
+		5F122CB02162CEAA00E0438C /* Nav.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F122CAF2162CEAA00E0438C /* Nav.swift */; };
+		5F122CB22162D16D00E0438C /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F122CB12162D16D00E0438C /* MenuCell.swift */; };
+		5F122CB42162D37900E0438C /* Plat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F122CB32162D37900E0438C /* Plat.swift */; };
+		5F122CB62162D3AE00E0438C /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F122CB52162D3AE00E0438C /* Enums.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		5F122C9B2162C9A300E0438C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5F122CA62162CB4400E0438C /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
 		5F122CA82162CB8400E0438C /* ALaCarteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALaCarteController.swift; sourceTree = "<group>"; };
+		5F122CAA2162CC7300E0438C /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		5F122CAD2162CCB900E0438C /* Constantes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constantes.swift; sourceTree = "<group>"; };
+		5F122CAF2162CEAA00E0438C /* Nav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nav.swift; sourceTree = "<group>"; };
+		5F122CB12162D16D00E0438C /* MenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
+		5F122CB32162D37900E0438C /* Plat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plat.swift; sourceTree = "<group>"; };
+		5F122CB52162D3AE00E0438C /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 		5F122C8E2162C9A200E0438C /* Restaurant du Monde */ = {
 			isa = PBXGroup;
 			children = (
+				5F122CAC2162CC9E00E0438C /* Utilitaire */,
 				5F122CA32162CAD000E0438C /* Modèle */,
 				5F122CA42162CADA00E0438C /* Vue */,
 				5F122CA52162CAE100E0438C /* Controlleur */,
@@ -71,6 +84,8 @@
 		5F122CA32162CAD000E0438C /* Modèle */ = {
 			isa = PBXGroup;
 			children = (
+				5F122CB32162D37900E0438C /* Plat.swift */,
+				5F122CB52162D3AE00E0438C /* Enums.swift */,
 			);
 			name = "Modèle";
 			path = "Modèle";
@@ -79,6 +94,7 @@
 		5F122CA42162CADA00E0438C /* Vue */ = {
 			isa = PBXGroup;
 			children = (
+				5F122CB12162D16D00E0438C /* MenuCell.swift */,
 			);
 			path = Vue;
 			sourceTree = "<group>";
@@ -88,8 +104,18 @@
 			children = (
 				5F122CA62162CB4400E0438C /* MenuController.swift */,
 				5F122CA82162CB8400E0438C /* ALaCarteController.swift */,
+				5F122CAA2162CC7300E0438C /* TabBar.swift */,
+				5F122CAF2162CEAA00E0438C /* Nav.swift */,
 			);
 			path = Controlleur;
+			sourceTree = "<group>";
+		};
+		5F122CAC2162CC9E00E0438C /* Utilitaire */ = {
+			isa = PBXGroup;
+			children = (
+				5F122CAD2162CCB900E0438C /* Constantes.swift */,
+			);
+			path = Utilitaire;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,9 +189,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F122CB22162D16D00E0438C /* MenuCell.swift in Sources */,
+				5F122CAE2162CCB900E0438C /* Constantes.swift in Sources */,
 				5F122CA72162CB4400E0438C /* MenuController.swift in Sources */,
 				5F122C902162C9A200E0438C /* AppDelegate.swift in Sources */,
 				5F122CA92162CB8400E0438C /* ALaCarteController.swift in Sources */,
+				5F122CAB2162CC7300E0438C /* TabBar.swift in Sources */,
+				5F122CB42162D37900E0438C /* Plat.swift in Sources */,
+				5F122CB62162D3AE00E0438C /* Enums.swift in Sources */,
+				5F122CB02162CEAA00E0438C /* Nav.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
