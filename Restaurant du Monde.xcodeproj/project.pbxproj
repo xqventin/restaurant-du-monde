@@ -19,6 +19,8 @@
 		5F122CB22162D16D00E0438C /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F122CB12162D16D00E0438C /* MenuCell.swift */; };
 		5F122CB42162D37900E0438C /* Plat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F122CB32162D37900E0438C /* Plat.swift */; };
 		5F122CB62162D3AE00E0438C /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F122CB52162D3AE00E0438C /* Enums.swift */; };
+		5F122CB82162D4A000E0438C /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F122CB72162D4A000E0438C /* Menu.swift */; };
+		5F122CBA2162D53100E0438C /* LesPlats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F122CB92162D53100E0438C /* LesPlats.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		5F122CB12162D16D00E0438C /* MenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
 		5F122CB32162D37900E0438C /* Plat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plat.swift; sourceTree = "<group>"; };
 		5F122CB52162D3AE00E0438C /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		5F122CB72162D4A000E0438C /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		5F122CB92162D53100E0438C /* LesPlats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LesPlats.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +90,8 @@
 			children = (
 				5F122CB32162D37900E0438C /* Plat.swift */,
 				5F122CB52162D3AE00E0438C /* Enums.swift */,
+				5F122CB72162D4A000E0438C /* Menu.swift */,
+				5F122CB92162D53100E0438C /* LesPlats.swift */,
 			);
 			name = "Modèle";
 			path = "Modèle";
@@ -193,7 +199,9 @@
 				5F122CAE2162CCB900E0438C /* Constantes.swift in Sources */,
 				5F122CA72162CB4400E0438C /* MenuController.swift in Sources */,
 				5F122C902162C9A200E0438C /* AppDelegate.swift in Sources */,
+				5F122CB82162D4A000E0438C /* Menu.swift in Sources */,
 				5F122CA92162CB8400E0438C /* ALaCarteController.swift in Sources */,
+				5F122CBA2162D53100E0438C /* LesPlats.swift in Sources */,
 				5F122CAB2162CC7300E0438C /* TabBar.swift in Sources */,
 				5F122CB42162D37900E0438C /* Plat.swift in Sources */,
 				5F122CB62162D3AE00E0438C /* Enums.swift in Sources */,
